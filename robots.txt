@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eldenjh.github.io/kidwatch-site/sitemap.xml
