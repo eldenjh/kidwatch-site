@@ -52,6 +52,10 @@ footer a{color:var(--muted)}
 ul{margin:0 0 14px;padding-left:20px}li{margin-bottom:7px}
 .note{background:#fff7ed;border:1px solid #fed7aa;border-radius:12px;padding:16px 18px;font-size:15px}
 </style>
+<script>
+// Anonymous pageview count: site + path + day only. No cookies, no IP, no identifiers.
+try{fetch("https://site-stats.kidwatch.workers.dev/hit?s=kidwatch&p="+encodeURIComponent(location.pathname)+"&r="+encodeURIComponent(document.referrer),{mode:"no-cors",keepalive:true}).catch(function(){})}catch(e){}
+</script>
 </head>
 <body>
 
